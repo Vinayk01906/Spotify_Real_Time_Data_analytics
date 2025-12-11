@@ -1,5 +1,5 @@
 
-# 🌑🎧 **Spotify Real-Time Data Analytics Pipeline **
+# 🌑🎧 **Spotify Real-Time Data Analysis Pipeline **
 
 
 ### 🚀 **Real-Time → Batch Modern Data Stack**
