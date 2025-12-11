@@ -1,0 +1,32 @@
+[0m22:39:19.825920 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FB9075E440>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FB91A89510>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FB91A89330>]}
+
+
+============================== 22:39:19.831595 | 7eae7fbf-5616-436f-8c4b-f23a0972dee1 ==============================
+[0m22:39:19.831595 [info ] [MainThread]: Running with dbt=1.10.15
+[0m22:39:19.831595 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\kumar\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt init', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m22:39:47.734831 [debug] [MainThread]: Starter project path: C:\Users\kumar\AppData\Local\Programs\Python\Python310\lib\site-packages\dbt\include\starter_project
+[0m22:39:47.768285 [info ] [MainThread]: 
+Your new dbt project "spotify_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m22:39:47.769284 [info ] [MainThread]: Setting up your profile.
+[0m22:39:54.116214 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m22:39:54.117245 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m22:39:54.118240 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m22:44:25.322212 [info ] [MainThread]: Profile spotify_dbt written to C:\Users\kumar\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m22:44:25.326662 [debug] [MainThread]: Command `dbt init` succeeded at 22:44:25.326662 after 305.60 seconds
+[0m22:44:25.326662 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FB9075E440>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FBB24E6350>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FB91A892D0>]}
+[0m22:44:25.328129 [debug] [MainThread]: Flushing usage events
+[0m22:44:27.044152 [debug] [MainThread]: An error was encountered while trying to flush usage events
